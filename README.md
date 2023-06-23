@@ -133,4 +133,3 @@ Support this project by becoming a sponsor. Your logo will show up here with a l
 ## Acknowledgments
 
 Thanks to my parents for all them love.
-# Predicting-Taxi-Fares-with-Deep-Feedforward-Networks
