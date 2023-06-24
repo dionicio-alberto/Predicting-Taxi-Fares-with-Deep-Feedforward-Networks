@@ -1,12 +1,12 @@
 <h1 align="center"> GitPoint </h1> <br>
 <p align="center">
   <!--<a href="https://gitpoint.co/"> -->
-    <img alt="Init" title="Presentation" src="https://i.imgur.com/sGD9l6X.png" width="450">
+    <img alt="Init" title="Presentation" src="https://i.imgur.com/ofmVeDU.png" width="450">
   </a>
 </p>
 
 <p align="center">
-  Predicting diabetes with Nueral Network
+  Predicting Taxis Fares with Deep Feedforward Network
 </p>
 
 <!-- 
@@ -43,16 +43,16 @@
 
 ## Introduction
 
-View repository about project to Predicting Diabetes using Nerual Networks and Pima Indians Poblation Dataset. 
+We used a deep feedforward neural network to predict taxi fares in New York City (NYC), given inputs such as the pickup and drop off locations.
 
-Diabetes is a persistent health condition linked to increased glucose levels in the body. It frequently results in heart disease, stroke, impaired kidney function, and lasting harm to the limbs.
+Yellow cabs in NYC are a recognizable icon, relied upon by thousands of commuters in the bustling city. However, the rise of ride-hailing apps like Uber has added pressure to the traditional taxi industry.
 
-Machine learning can predict diabetes, and AI is set to disrupt the healthcare field. Accenture predicts a 40% compound annual growth rate in the AI healthcare market by 2021, driven by the proliferation of AI and tech companies in the industry.
+To meet the competition posed by ride-hailing apps, NYC's yellow cabs are striving to modernize their services and offer a user experience comparable to Uber. In August 2018, the Taxi and Limousine Commission of NYC introduced a new mobile app enabling commuters to book yellow cabs conveniently. The app also provides upfront fare pricing, requiring the development of a sophisticated algorithm. This algorithm must account for multiple factors like traffic conditions, time of day, and pickup/drop-off locations to generate precise fare predictions.
 
 **All project is in the folder *Notebook*.**
 
 <p align="center">
-  <img src = "https://live.staticflickr.com/65535/49775715367_b0c9d4ec20_c.jpg" width=350>
+  <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/New_york_times_square-terabass.jpg/1200px-New_york_times_square-terabass.jpg", width="600">
 </p>
 
 -----
@@ -61,24 +61,21 @@ Machine learning can predict diabetes, and AI is set to disrupt the healthcare f
 
 Principal's model feactures:
 
-- Model with ~80% accuracy
-- 2 hidden layers
-- 32 nodes
+- 4 hidden layers
+- 232 nodes
+- 12913 parameters
+- 20 iterations
 - Model implementent witSh Keras usign the sequential model
 - Adam optimizer algorithm 
-- 300 iterations
+- MSE metric
+- RMSE final ~ $ 3.50
+
 
 <p align="center">
-  <img src = "https://i.imgur.com/RNVkrHo.png" width=400>
+  <img src = "https://i.imgur.com/nlN8INQ.png" width=400>
 </p>
 
-> Confussion Matrix Results
-
-<p align="center">
-  <img src = "https://i.imgur.com/eOtvLo8.png" width=400>
-</p>
-
-> ROC Curve
+> Model schematic
 -----
 
 ## Feedback
